@@ -3,12 +3,11 @@
 import socket #library to use https://docs.python.org/3/library/socket.html
 from ports import ports_and_services
 
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-
 def getOpenPorts(target, portRange):
     openPorts = []
     #Obtener el host con socket
     target_ip = socket.gethostbyname(target)
+    print("Host =", target_ip)
     
     def port_scan(port):
         try:
@@ -19,6 +18,7 @@ def getOpenPorts(target, portRange):
     
     #hacer un loop sobre el rango de puertos
     for port in portRange:
+        s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         if port_scan(port):
            openPorts.append(port)
         
