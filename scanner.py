@@ -23,8 +23,11 @@ def getOpenPorts(target, portRange, verbose = False):
            openPorts.append(port)
         s.close()
      
+    # Primera entrega para evaluación
     # Falta poner mas verbosidad y mas robustez al programa
     # Pero el código ya no tiene errores
+    
+    # Modificacione se haran eventualmente
         
     return openPorts
 
