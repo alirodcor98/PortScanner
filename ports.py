@@ -17,15 +17,15 @@ ports_and_services = {
     67: 'dhcp', #dynamic host configuration protocol (bootp) https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol
     68: 'dhcp',
     69: 'tftp', #trivial file transfer protocol https://en.wikipedia.org/wiki/Trivial_File_Transfer_Protocol
-    70: 'gopher' #gopher protocol https://en.wikipedia.org/wiki/Gopher_(protocol)
-    79: 'fp':, #finger protocol https://en.wikipedia.org/wiki/Finger_(protocol)
+    70: 'gopher', #gopher protocol https://en.wikipedia.org/wiki/Gopher_(protocol)
+    79: 'fp', #finger protocol https://en.wikipedia.org/wiki/Finger_(protocol)
     80: 'http', #hypertext transfer protocol https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
     81: 'onion', #torpark onion https://en.wikipedia.org/wiki/Onion_routing
     88: 'kerberos', #https://en.wikipedia.org/wiki/Kerberos_(protocol)
     106: 'macos', #macos server https://en.wikipedia.org/wiki/MacOS_Server
     107: 'rtelnet', #remote user telnet service https://en.wikipedia.org/wiki/Rtelnet
-    108: 'sna': #ibm system network arquitecture https://en.wikipedia.org/wiki/Systems_Network_Architecture
-    109: 'pop2': #post office protocol v2 https://en.wikipedia.org/wiki/Post_Office_Protocol
+    108: 'sna', #ibm system network arquitecture https://en.wikipedia.org/wiki/Systems_Network_Architecture
+    109: 'pop2', #post office protocol v2 https://en.wikipedia.org/wiki/Post_Office_Protocol
     110: 'pop3', #post office protocol v3
     111: 'rpc', #open network remote procedure call https://en.wikipedia.org/wiki/Sun_RPC
     123: 'ntp', #network time protocol https://en.wikipedia.org/wiki/Network_Time_Protocol
