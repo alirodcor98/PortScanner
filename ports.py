@@ -10,7 +10,7 @@ ports_and_services = {
     23: 'telnet', #unencrypted text communications https://en.wikipedia.org/wiki/Telnet
     25: 'smtp', #email routing https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol
     37: 'time protocol', #important dates 1900, 2036 https://en.wikipedia.org/wiki/Time_Protocol
-    42: 'arpa': #hns protocol https://en.wikipedia.org/wiki/ARPA_Host_Name_Server_Protocol
+    42: 'arpa', #hns protocol https://en.wikipedia.org/wiki/ARPA_Host_Name_Server_Protocol
     43: 'whois', #https://en.wikipedia.org/wiki/WHOIS
     52: 'xns', #xerox network systems https://en.wikipedia.org/wiki/Xerox_Network_Systems
     53: 'dns', #domain name system https://en.wikipedia.org/wiki/Domain_Name_System
