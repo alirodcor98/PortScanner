@@ -3,7 +3,7 @@
 import socket #library to use https://docs.python.org/3/library/socket.html
 from ports import ports_and_services
 
-def getOpenPorts(target, portRange):
+def getOpenPorts(target, portRange, verbose = False):
     openPorts = []
     #Obtener el host con socket
     target_ip = socket.gethostbyname(target)
