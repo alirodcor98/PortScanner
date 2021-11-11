@@ -11,11 +11,11 @@ def getOpenPorts(target, portRange):
     target_ip = socket.gethostbyname(target)
     
     def port_scan(port):
-    try:
-        s.connect((target_ip, port))
-        return True
-    except:
-        return False
+        try:
+            s.connect((target_ip, port))
+            return True
+        except:
+            return False
     
     #hacer un loop sobre el rango de puertos
     for port in portRange:
