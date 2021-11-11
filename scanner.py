@@ -17,10 +17,14 @@ def getOpenPorts(target, portRange):
             return False
     
     #hacer un loop sobre el rango de puertos
-    for port in portRange:
+    for port in range(portRange[0],portRange[1]+1):
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         if port_scan(port):
            openPorts.append(port)
+        s.close()
+     
+    # Falta poner mas verbosidad y mas robustez al programa
+    # Pero el código ya no tiene errores
         
     return openPorts
 
