@@ -5,7 +5,7 @@ from ports import ports_and_services
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-def getOpenPorts(target, portRange)
+def getOpenPorts(target, portRange):
     openPorts = []
     #Obtener el host con socket
     target_ip = socket.gethostbyname(target)
